@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Research - pj.demo.yeswehack.com</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { font-size: 2.5em; }
+        .handle { 
+            background: rgba(0,0,0,0.3); 
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 1.2em;
+        }
+        .note {
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Subdomain Takeover Proof of Concept</h1>
+        <p>This domain (<strong>pj.demo.yeswehack.com</strong>) was vulnerable to takeover.</p>
+        <p>Discovered by: <span class="handle">beanett</span></p>
+        <p>Date: <script>document.write(new Date().toDateString())</script></p>
+        <p><em>This is a benign proof of concept demonstrating control.</em></p>
+        <p><em>No malicious content has been or will be hosted here.</em></p>
+        <div class="note">
+            <p>Reported to YesWeHack via HackerOne • Security Research • Responsible Disclosure</p>
+        </div>
+    </div>
+</body>
+</html>
